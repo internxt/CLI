@@ -1,14 +1,7 @@
-_**Notice**: Development on libstorj is currently on pause during our v3 rearchitecture. Please see https://github.com/storj/storj for ongoing v3 development._
-
-libstorj
+X Cloud's Command Line Interface (CLI)
 =======
 
-[![storj.io](https://storj.io/img/storj-badge.svg)](https://storj.io)
-[![Build Status](https://travis-ci.org/storj/libstorj.svg?branch=master)](https://travis-ci.org/storj/libstorj)
-[![GitHub version](https://badge.fury.io/gh/storj%2Flibstorj.svg)](https://badge.fury.io/gh/storj%2Flibstorj)
-[![Chat on rocket.chat](https://img.shields.io/badge/chat-rocket.chat-red.svg)](https://community.storj.io/channel/dev)
-
-Asynchronous multi-platform C library and CLI for encrypted file transfer on the Storj network.
+Asynchronous multi-platform C library and CLI for encrypted file transfer on the Internxt network.
 
 ## Feature Highlights
 
@@ -22,7 +15,6 @@ Asynchronous multi-platform C library and CLI for encrypted file transfer on the
 - Asynchronous progress updates in bytes per file
 - Transfers can be cleanly canceled per file
 - Seed based file encryption key for portability between devices
-- Reference implementation for [SIP5](https://github.com/Storj/sips/blob/master/sip-0005.md) file standard
 
 ## Build
 
@@ -39,7 +31,7 @@ To run tests:
 
 To run command line utility:
 ```bash
-./src/storj --help
+./src/internxt --help
 ```
 
 And to install locally:
