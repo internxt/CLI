@@ -51,6 +51,11 @@ Dependencies:
 apt-get install libcurl4-gnutls-dev nettle-dev libjson-c-dev libuv1-dev
 ```
 
+Package-Config:
+```bash
+apt-get install pkg-config
+```
+
 ### OS X Dependencies (w/ homebrew):
 
 Development tools:
